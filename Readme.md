@@ -24,7 +24,7 @@ Several panels are displayed as tabs at the bottom.
 
 <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-build-a-layout-similar-to-visual-studio-t326805/15.1.3+/media/a426f3e0-a7bd-11e5-80bf-00155d62480c.png">
 
-There are several ways to display tabs in DXDocking. Please refer to <a href="https://www.devexpress.com/Support/Center/p/T326792">How to display items in tabs</a> to be aware of all available options. In this scenario, use a [Tabbed Group](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.TabbedGroup), as it supports reordering panels, removing and adding new panels.
+This example uses a [Tabbed Group](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.TabbedGroup), as it allows you to reorder panels, remove, and add new panels.
 
 ```xaml
 <dxdo:TabbedGroup>
@@ -38,7 +38,7 @@ There are several ways to display tabs in DXDocking. Please refer to <a href="h
 
 <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-build-a-layout-similar-to-visual-studio-t326805/15.1.3+/media/ebc469da-a7bd-11e5-80bf-00155d62480c.png">
 
-While the Tabbed Group is intended to display static panels like toolbars, background information, etc., [Document Groups](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup) can be used to display dynamic content (like opened documents) and provides the functionality similar to Visual Studio’s document area.
+Use [Document Groups](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup) to display dynamic content (like opened documents).
 
 
 ```xaml
@@ -71,7 +71,7 @@ To arrange these elements, use a combination of vertical and horizontal [LayoutG
 
 <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-build-a-layout-similar-to-visual-studio-t326805/15.1.3+/media/373fd0bd-a7be-11e5-80bf-00155d62480c.png">
 
-To create such panels, define an [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup) with several panels.
+To create these panels, define an [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup) that include  panels.
 
 ```xaml
 <dxdo:DockLayoutManager.AutoHideGroups>
@@ -89,6 +89,9 @@ To create such panels, define an [AutoHideGroup](https://docs.devexpress.com/WPF
 <!-- default file list end -->
 
 ## Documentation
+
+- [WPF Dock Layout Manager - Dock Items](https://docs.devexpress.com/WPF/6191/controls-and-libraries/layout-management/dock-windows)
+- [WPF Dock Layout Manager - Create a Simple Layout of Dock Panes](https://docs.devexpress.com/WPF/6654/controls-and-libraries/layout-management/dock-windows/getting-started/how-to-create-a-simple-layout-of-dock-panes)
 
 ## More Examples
 
