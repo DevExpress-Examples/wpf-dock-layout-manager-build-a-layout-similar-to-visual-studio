@@ -24,7 +24,7 @@ Several panels are displayed as tabs at the bottom.
 
 <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-build-a-layout-similar-to-visual-studio-t326805/15.1.3+/media/a426f3e0-a7bd-11e5-80bf-00155d62480c.png">
 
-This example uses a [Tabbed Group](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.TabbedGroup), as it allows you to reorder panels, remove, and add new panels.
+This example uses a [Tabbed Group](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.TabbedGroup), as it allows you to reorder, remove, and add new panels.
 
 ```xaml
 <dxdo:TabbedGroup>
