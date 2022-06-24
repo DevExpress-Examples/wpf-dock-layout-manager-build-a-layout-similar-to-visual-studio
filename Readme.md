@@ -71,7 +71,7 @@ To arrange these elements, use a combination of vertical and horizontal [LayoutG
 
 <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-build-a-layout-similar-to-visual-studio-t326805/15.1.3+/media/373fd0bd-a7be-11e5-80bf-00155d62480c.png">
 
-To create these panels, define an [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup) that include  panels.
+To create these panels, define an [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup) that includes panels.
 
 ```xaml
 <dxdo:DockLayoutManager.AutoHideGroups>
