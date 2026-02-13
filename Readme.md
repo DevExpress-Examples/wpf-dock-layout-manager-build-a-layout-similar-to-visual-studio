@@ -99,7 +99,7 @@ To create these panels, define an [AutoHideGroup](https://docs.devexpress.com/WP
 
 - [WPF Dock Layout Manager - Populate Tabs with Items](https://github.com/DevExpress-Examples/wpf-dock-layout-manager-populate-tabs-with-items)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-dock-layout-manager-build-a-layout-similar-to-visual-studio&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-dock-layout-manager-build-a-layout-similar-to-visual-studio&~~~was_helpful=no)
 
