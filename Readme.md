@@ -10,11 +10,15 @@ This example uses the [DockLayoutManager](https://docs.devexpress.com/WPF/DevExp
 
 <img src="https://user-images.githubusercontent.com/12169834/175337035-49bc2b7d-b28b-485f-b4a4-09f5951b4d51.png" width=700px/>
 
+<br>
+
 The window layout contains the following elements:
 
 ## The Solution Explorer Panel
 
 <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-build-a-layout-similar-to-visual-studio-t326805/15.1.3+/media/7bdba3b4-a7bd-11e5-80bf-00155d62480c.png">
+
+<br>
 
 Use a [Layout Panel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) item to display the panel.
 
@@ -25,6 +29,8 @@ Use a [Layout Panel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.Layo
 Several panels are displayed as tabs at the bottom.
 
 <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-build-a-layout-similar-to-visual-studio-t326805/15.1.3+/media/a426f3e0-a7bd-11e5-80bf-00155d62480c.png">
+
+<br>
 
 This example uses a [Tabbed Group](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.TabbedGroup), as it allows you to reorder, remove, and add new panels.
 
@@ -39,6 +45,8 @@ This example uses a [Tabbed Group](https://docs.devexpress.com/WPF/DevExpress.Xp
 ## The Document Area
 
 <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-build-a-layout-similar-to-visual-studio-t326805/15.1.3+/media/ebc469da-a7bd-11e5-80bf-00155d62480c.png">
+
+<br>
 
 Use [Document Groups](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup) to display dynamic content (like opened documents).
 
@@ -72,6 +80,8 @@ To arrange these elements, use a combination of vertical and horizontal [LayoutG
 ## Auto-Hide Panels
 
 <img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-build-a-layout-similar-to-visual-studio-t326805/15.1.3+/media/373fd0bd-a7be-11e5-80bf-00155d62480c.png">
+
+<br>
 
 To create these panels, define an [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup) that includes panels.
 
